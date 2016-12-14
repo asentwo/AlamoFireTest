@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E07A2FC1DFDE17300B73B0C /* JSONResponseSampleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E07A2FB1DFDE17300B73B0C /* JSONResponseSampleFile.swift */; };
+		6EF47AC41DF9DFA0009F084D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF47AC31DF9DFA0009F084D /* AppDelegate.swift */; };
+		6EF47AC61DF9DFA0009F084D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF47AC51DF9DFA0009F084D /* TestViewController.swift */; };
+		6EF47AC91DF9DFA0009F084D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF47AC71DF9DFA0009F084D /* Main.storyboard */; };
+		6EF47ACB1DF9DFA0009F084D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF47ACA1DF9DFA0009F084D /* Assets.xcassets */; };
+		6EF47ACE1DF9DFA0009F084D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF47ACC1DF9DFA0009F084D /* LaunchScreen.storyboard */; };
+		6EF47AD61DF9DFBD009F084D /* DetailedShowInfo_N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF47AD51DF9DFBD009F084D /* DetailedShowInfo_N.swift */; };
+		6EF47AD81DF9DFCD009F084D /* NetworkManager_N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF47AD71DF9DFCD009F084D /* NetworkManager_N.swift */; };
+		6EF47ADA1DF9DFF0009F084D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6EF47AD91DF9DFF0009F084D /* Podfile */; };
+		A31E88AD87770BF0926932D1 /* Pods_AlamoFireMyShowGuideTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E3759D9A8A5D3351F497F2 /* Pods_AlamoFireMyShowGuideTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DEB3077A6A2B8B33934DC5B /* Pods-AlamoFireMyShowGuideTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamoFireMyShowGuideTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamoFireMyShowGuideTest/Pods-AlamoFireMyShowGuideTest.release.xcconfig"; sourceTree = "<group>"; };
+		6E07A2FB1DFDE17300B73B0C /* JSONResponseSampleFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONResponseSampleFile.swift; sourceTree = "<group>"; };
+		6EF47AC01DF9DFA0009F084D /* AlamoFireMyShowGuideTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamoFireMyShowGuideTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF47AC31DF9DFA0009F084D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EF47AC51DF9DFA0009F084D /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		6EF47AC81DF9DFA0009F084D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EF47ACA1DF9DFA0009F084D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EF47ACD1DF9DFA0009F084D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EF47ACF1DF9DFA0009F084D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF47AD51DF9DFBD009F084D /* DetailedShowInfo_N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedShowInfo_N.swift; sourceTree = "<group>"; };
+		6EF47AD71DF9DFCD009F084D /* NetworkManager_N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager_N.swift; sourceTree = "<group>"; };
+		6EF47AD91DF9DFF0009F084D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4E3759D9A8A5D3351F497F2 /* Pods_AlamoFireMyShowGuideTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamoFireMyShowGuideTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F007E37735715033E677008F /* Pods-AlamoFireMyShowGuideTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamoFireMyShowGuideTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamoFireMyShowGuideTest/Pods-AlamoFireMyShowGuideTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EF47ABD1DF9DFA0009F084D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31E88AD87770BF0926932D1 /* Pods_AlamoFireMyShowGuideTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D25A339B311D3117B9D684C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F007E37735715033E677008F /* Pods-AlamoFireMyShowGuideTest.debug.xcconfig */,
+				0DEB3077A6A2B8B33934DC5B /* Pods-AlamoFireMyShowGuideTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6EF47AB71DF9DFA0009F084D = {
+			isa = PBXGroup;
+			children = (
+				6EF47AD91DF9DFF0009F084D /* Podfile */,
+				6EF47AC21DF9DFA0009F084D /* AlamoFireMyShowGuideTest */,
+				6EF47AC11DF9DFA0009F084D /* Products */,
+				5D25A339B311D3117B9D684C /* Pods */,
+				E06EB89032E95022016041B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EF47AC11DF9DFA0009F084D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EF47AC01DF9DFA0009F084D /* AlamoFireMyShowGuideTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EF47AC21DF9DFA0009F084D /* AlamoFireMyShowGuideTest */ = {
+			isa = PBXGroup;
+			children = (
+				6EF47AD71DF9DFCD009F084D /* NetworkManager_N.swift */,
+				6EF47AD51DF9DFBD009F084D /* DetailedShowInfo_N.swift */,
+				6EF47AC31DF9DFA0009F084D /* AppDelegate.swift */,
+				6EF47AC51DF9DFA0009F084D /* TestViewController.swift */,
+				6E07A2FB1DFDE17300B73B0C /* JSONResponseSampleFile.swift */,
+				6EF47AC71DF9DFA0009F084D /* Main.storyboard */,
+				6EF47ACA1DF9DFA0009F084D /* Assets.xcassets */,
+				6EF47ACC1DF9DFA0009F084D /* LaunchScreen.storyboard */,
+				6EF47ACF1DF9DFA0009F084D /* Info.plist */,
+			);
+			path = AlamoFireMyShowGuideTest;
+			sourceTree = "<group>";
+		};
+		E06EB89032E95022016041B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4E3759D9A8A5D3351F497F2 /* Pods_AlamoFireMyShowGuideTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EF47ABF1DF9DFA0009F084D /* AlamoFireMyShowGuideTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EF47AD21DF9DFA0009F084D /* Build configuration list for PBXNativeTarget "AlamoFireMyShowGuideTest" */;
+			buildPhases = (
+				4DB1AD5257E16786466D5947 /* [CP] Check Pods Manifest.lock */,
+				6EF47ABC1DF9DFA0009F084D /* Sources */,
+				6EF47ABD1DF9DFA0009F084D /* Frameworks */,
+				6EF47ABE1DF9DFA0009F084D /* Resources */,
+				4C7407915B56F0B11162B6C7 /* [CP] Embed Pods Frameworks */,
+				C11214D9EB1D467D7B530D1B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlamoFireMyShowGuideTest;
+			productName = AlamoFireMyShowGuideTest;
+			productReference = 6EF47AC01DF9DFA0009F084D /* AlamoFireMyShowGuideTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EF47AB81DF9DFA0009F084D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = JustinDoo;
+				TargetAttributes = {
+					6EF47ABF1DF9DFA0009F084D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8W3UY4SPV9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6EF47ABB1DF9DFA0009F084D /* Build configuration list for PBXProject "AlamoFireMyShowGuideTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EF47AB71DF9DFA0009F084D;
+			productRefGroup = 6EF47AC11DF9DFA0009F084D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EF47ABF1DF9DFA0009F084D /* AlamoFireMyShowGuideTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EF47ABE1DF9DFA0009F084D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF47ACE1DF9DFA0009F084D /* LaunchScreen.storyboard in Resources */,
+				6EF47ACB1DF9DFA0009F084D /* Assets.xcassets in Resources */,
+				6EF47ADA1DF9DFF0009F084D /* Podfile in Resources */,
+				6EF47AC91DF9DFA0009F084D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C7407915B56F0B11162B6C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamoFireMyShowGuideTest/Pods-AlamoFireMyShowGuideTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DB1AD5257E16786466D5947 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C11214D9EB1D467D7B530D1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamoFireMyShowGuideTest/Pods-AlamoFireMyShowGuideTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EF47ABC1DF9DFA0009F084D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF47AD61DF9DFBD009F084D /* DetailedShowInfo_N.swift in Sources */,
+				6EF47AC61DF9DFA0009F084D /* TestViewController.swift in Sources */,
+				6E07A2FC1DFDE17300B73B0C /* JSONResponseSampleFile.swift in Sources */,
+				6EF47AC41DF9DFA0009F084D /* AppDelegate.swift in Sources */,
+				6EF47AD81DF9DFCD009F084D /* NetworkManager_N.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EF47AC71DF9DFA0009F084D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EF47AC81DF9DFA0009F084D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EF47ACC1DF9DFA0009F084D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EF47ACD1DF9DFA0009F084D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EF47AD01DF9DFA0009F084D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EF47AD11DF9DFA0009F084D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EF47AD31DF9DFA0009F084D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F007E37735715033E677008F /* Pods-AlamoFireMyShowGuideTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W3UY4SPV9;
+				INFOPLIST_FILE = AlamoFireMyShowGuideTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justindoo.AlamoFireMyShowGuideTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6EF47AD41DF9DFA0009F084D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DEB3077A6A2B8B33934DC5B /* Pods-AlamoFireMyShowGuideTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W3UY4SPV9;
+				INFOPLIST_FILE = AlamoFireMyShowGuideTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justindoo.AlamoFireMyShowGuideTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EF47ABB1DF9DFA0009F084D /* Build configuration list for PBXProject "AlamoFireMyShowGuideTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF47AD01DF9DFA0009F084D /* Debug */,
+				6EF47AD11DF9DFA0009F084D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EF47AD21DF9DFA0009F084D /* Build configuration list for PBXNativeTarget "AlamoFireMyShowGuideTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF47AD31DF9DFA0009F084D /* Debug */,
+				6EF47AD41DF9DFA0009F084D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EF47AB81DF9DFA0009F084D /* Project object */;
+}
